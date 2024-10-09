@@ -54,51 +54,6 @@ hpdisplay = chr(0x2588) + chr(0x2502)
 dashdisplay = chr(0x2591) + chr(0x2502)
 total_hunger= max_hunger - player_hunger
 
-#The healthbar function
-# def zombification():
-#     global playerzombi
-#     global totalzombi
-#     global hpdisplay
-#     global dashdisplay
-#     dishp = hpdisplay * playerzombi
-#     dashzero = dashdisplay * totalzombi
-#     overall_health= dishp + dashzero
-#     if playerzombi < 0:
-#         playerzombi = 0
-#     elif playerzombi< maxzombi:
-#         return overall_health
-#     elif playerzombi == maxzombi:
-#         print("You were unable to contain the zombie virus any longer: GAME OVER")          # keeps the health from going below 0 and above 10
-#         return False
-
-#     return True
-
-# def print_status():
-#     print (zombification())
-
-
-# clear()
-
-# # Hunger meter
-# def hunger():
-#     global player_hunger
-#     global total_hunger
-#     global hpdisplay
-#     global dashdisplay
-#     dishp = hpdisplay * player_hunger
-#     dashzero = dashdisplay * total_hunger
-#     overall_hunger=dishp*dashzero
-#     if player_hunger < 0:
-#         player_hunger = 0
-#     elif player_hunger < max_hunger:
-#         return overall_hunger
-#     elif player_hunger == max_hunger:
-#         print("You starved to death")          # keeps the health from going below 0 and above 10
-#         return False
-#     return True
-
-
-
 clear()
 
 # will pop up before the game starts, a little intro
